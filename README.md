@@ -1,51 +1,78 @@
-# 🛒 SQL Sales Analytics
+# SQL & Data Analytics Insights
 
-A beginner-friendly project where I use **SQL** to analyze sales data, find insights, and answer business-related questions.  
-This project simulates how an analyst would query raw data to support decision-making.
-
----
-
-## 📌 Objectives
-- Create structured database tables for sales data  
-- Write queries to answer **real business questions**  
-- Generate summary reports and KPIs  
+Welcome to my **SQL & Data Analytics Portfolio**!  
+This repository demonstrates real-world business analysis using **SQL**, covering **joins, subqueries, aggregates, CTEs, window functions, and set functions**.
 
 ---
 
-## 📂 Repository Structure
-- `data/` → contains raw dataset(s)  
-- `queries/` → SQL scripts for table creation, inserts, and analysis  
-- `reports/` → summary output or Excel dashboards (optional)  
+## 🔹 Repository Structure
+
+data/ → SQL scripts for Customers, Products, Regions, Sales tables
+queries/ → SQL queries demonstrating joins, aggregates, subqueries, etc.
+insights/ → Analytical insights derived from the queries
+README.md → This file
+
 
 ---
 
-## 🛠️ Tech Stack
-- **SQL** (MySQL / PostgreSQL / Oracle – can adapt to any RDBMS)  
-- Excel / Power BI (optional visualization)  
+## 🔹 Data Setup
+
+- Tables included:
+  - **Customers**
+  - **Products**
+  - **Regions**
+  - **Sales**
+- Dummy data inserted (~40 rows) to simulate real-world transactions.
+- SQL files location: [`data/`](data/)
 
 ---
 
-## 📊 Example Business Questions
-- What is the **total revenue** by region?  
-- Who are the **top 5 customers** by purchase value?  
-- Which product categories generate the **highest sales**?  
-- Month-over-month **sales growth trend**  
+## 🔹 Queries
+
+- **Joins:** [`queries/joins.sql`](queries/joins.sql)  
+- **Aggregates:** [`queries/aggregates.sql`](queries/aggregates.sql)  
+- **Subqueries:** [`queries/subqueries.sql`](queries/subqueries.sql)  
+- **CTEs:** [`queries/cte.sql`](queries/cte.sql)  
+- **Window Functions:** [`queries/window_functions.sql`](queries/window_functions.sql)  
+- **Set Functions:** [`queries/set_functions.sql`](queries/set_functions.sql)  
+
+These queries help explore:
+- Revenue by product, region, and customer  
+- Monthly trends  
+- Customer behavior and loyalty  
+- Product and regional performance  
 
 ---
 
-## 🚀 How to Run
-1. Clone this repo  
-2. Run `create_tables.sql` and `insert_data.sql`  
-3. Execute `analysis_queries.sql` to generate insights  
+## 🔹 Insights
+
+Markdown reports derived from the queries, located in [`insights/`](insights/):
+
+- **[Revenue Analysis](insights/revenue_analysis.md)** – Revenue trends across products, regions, and months  
+- **[Customer Behavior](insights/customer_behavior.md)** – Top customers, average order values, premium customer identification  
+- **[Regional Performance](insights/regional_performance.md)** – Region-wise revenue and product popularity  
+- **[Product Trends](insights/product_trends.md)** – Units sold, category contribution, top-performing products  
 
 ---
 
-## 📖 Learnings
-- Writing **clean, modular SQL queries**  
-- Performing **aggregations, joins, and subqueries**  
-- Thinking like a **Data Analyst**: turning raw data into insights  
+## 🔹 Example Insights Visuals
+
+![Revenue by Product](images/revenue_by_product.png)  
+*Revenue contribution per product*  
+
+![Monthly Revenue Trend](images/monthly_revenue.png)  
+*Revenue trend month-wise*  
 
 ---
 
-## ⚡ Fun Fact
-Every dataset tells a story — SQL is just how we ask the right questions 😉
+## 🔹 Skills Demonstrated
+
+- SQL: Joins, Subqueries, Aggregates, CTEs, Window & Set Functions  
+- Data Analytics: Business insights, trend analysis, customer segmentation  
+- Repository Management: GitHub structure, README, documentation  
+
+---
+
+## 🔹 Fun Fact
+
+“Curiosity never kills the analyst — it only leads to more insights!” 🚀
