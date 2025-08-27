@@ -7,10 +7,10 @@ This repository demonstrates real-world business analysis using **SQL**, coverin
 
 ## 🔹 Repository Structure
 
-data/ → SQL scripts for Customers, Products, Regions, Sales tables
-queries/ → SQL queries demonstrating joins, aggregates, subqueries, etc.
-insights/ → Analytical insights derived from the queries
-README.md → This file
+- data/ → SQL scripts for Customers, Products, Regions, Sales tables
+- queries/ → SQL queries demonstrating joins, aggregates, subqueries, etc.
+- insights/ → Analytical insights derived from the queries
+- README.md → This file
 
 
 ---
